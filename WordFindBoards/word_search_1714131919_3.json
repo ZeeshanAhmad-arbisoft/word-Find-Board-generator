@@ -1,0 +1,334 @@
+{
+    "grid": [
+        {
+            "letter": "n",
+            "row": 0,
+            "col": 0
+        },
+        {
+            "letter": "o",
+            "row": 0,
+            "col": 1
+        },
+        {
+            "letter": "o",
+            "row": 0,
+            "col": 2
+        },
+        {
+            "letter": "n",
+            "row": 0,
+            "col": 3
+        },
+        {
+            "letter": "t",
+            "row": 0,
+            "col": 4
+        },
+        {
+            "letter": "i",
+            "row": 0,
+            "col": 5
+        },
+        {
+            "letter": "d",
+            "row": 0,
+            "col": 6
+        },
+        {
+            "letter": "e",
+            "row": 0,
+            "col": 7
+        },
+        {
+            "letter": "q",
+            "row": 1,
+            "col": 0
+        },
+        {
+            "letter": "t",
+            "row": 1,
+            "col": 1
+        },
+        {
+            "letter": "u",
+            "row": 1,
+            "col": 2
+        },
+        {
+            "letter": "s",
+            "row": 1,
+            "col": 3
+        },
+        {
+            "letter": "s",
+            "row": 1,
+            "col": 4
+        },
+        {
+            "letter": "o",
+            "row": 1,
+            "col": 5
+        },
+        {
+            "letter": "r",
+            "row": 1,
+            "col": 6
+        },
+        {
+            "letter": "e",
+            "row": 1,
+            "col": 7
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 0
+        },
+        {
+            "letter": "d",
+            "row": 2,
+            "col": 1
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 2
+        },
+        {
+            "letter": "n",
+            "row": 2,
+            "col": 3
+        },
+        {
+            "letter": "t",
+            "row": 2,
+            "col": 4
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 5
+        },
+        {
+            "letter": "i",
+            "row": 2,
+            "col": 6
+        },
+        {
+            "letter": "d",
+            "row": 2,
+            "col": 7
+        },
+        {
+            "letter": "l",
+            "row": 3,
+            "col": 0
+        },
+        {
+            "letter": "h",
+            "row": 3,
+            "col": 1
+        },
+        {
+            "letter": "d",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "letter": "a",
+            "row": 3,
+            "col": 3
+        },
+        {
+            "letter": "i",
+            "row": 3,
+            "col": 4
+        },
+        {
+            "letter": "d",
+            "row": 3,
+            "col": 5
+        },
+        {
+            "letter": "l",
+            "row": 3,
+            "col": 6
+        },
+        {
+            "letter": "y",
+            "row": 3,
+            "col": 7
+        },
+        {
+            "letter": "o",
+            "row": 4,
+            "col": 0
+        },
+        {
+            "letter": "r",
+            "row": 4,
+            "col": 1
+        },
+        {
+            "letter": "f",
+            "row": 4,
+            "col": 2
+        },
+        {
+            "letter": "i",
+            "row": 4,
+            "col": 3
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 4
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 5
+        },
+        {
+            "letter": "e",
+            "row": 4,
+            "col": 6
+        },
+        {
+            "letter": "r",
+            "row": 4,
+            "col": 7
+        },
+        {
+            "letter": "t",
+            "row": 5,
+            "col": 0
+        },
+        {
+            "letter": "x",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "letter": "l",
+            "row": 5,
+            "col": 2
+        },
+        {
+            "letter": "a",
+            "row": 5,
+            "col": 3
+        },
+        {
+            "letter": "p",
+            "row": 5,
+            "col": 4
+        },
+        {
+            "letter": "q",
+            "row": 5,
+            "col": 5
+        },
+        {
+            "letter": "t",
+            "row": 5,
+            "col": 6
+        },
+        {
+            "letter": "m",
+            "row": 5,
+            "col": 7
+        },
+        {
+            "letter": "i",
+            "row": 6,
+            "col": 0
+        },
+        {
+            "letter": "w",
+            "row": 6,
+            "col": 1
+        },
+        {
+            "letter": "t",
+            "row": 6,
+            "col": 2
+        },
+        {
+            "letter": "b",
+            "row": 6,
+            "col": 3
+        },
+        {
+            "letter": "l",
+            "row": 6,
+            "col": 4
+        },
+        {
+            "letter": "f",
+            "row": 6,
+            "col": 5
+        },
+        {
+            "letter": "t",
+            "row": 6,
+            "col": 6
+        },
+        {
+            "letter": "r",
+            "row": 6,
+            "col": 7
+        },
+        {
+            "letter": "c",
+            "row": 7,
+            "col": 0
+        },
+        {
+            "letter": "m",
+            "row": 7,
+            "col": 1
+        },
+        {
+            "letter": "e",
+            "row": 7,
+            "col": 2
+        },
+        {
+            "letter": "w",
+            "row": 7,
+            "col": 3
+        },
+        {
+            "letter": "l",
+            "row": 7,
+            "col": 4
+        },
+        {
+            "letter": "k",
+            "row": 7,
+            "col": 5
+        },
+        {
+            "letter": "y",
+            "row": 7,
+            "col": 6
+        },
+        {
+            "letter": "p",
+            "row": 7,
+            "col": 7
+        }
+    ],
+    "words": [
+        "daidly",
+        "letty",
+        "noontide",
+        "odontoid",
+        "tussore",
+        "finner",
+        "enrolles",
+        "lotic"
+    ]
+}

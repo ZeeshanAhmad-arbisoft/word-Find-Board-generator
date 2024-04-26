@@ -1,0 +1,334 @@
+{
+    "grid": [
+        {
+            "letter": "w",
+            "row": 0,
+            "col": 0
+        },
+        {
+            "letter": "v",
+            "row": 0,
+            "col": 1
+        },
+        {
+            "letter": "v",
+            "row": 0,
+            "col": 2
+        },
+        {
+            "letter": "r",
+            "row": 0,
+            "col": 3
+        },
+        {
+            "letter": "w",
+            "row": 0,
+            "col": 4
+        },
+        {
+            "letter": "y",
+            "row": 0,
+            "col": 5
+        },
+        {
+            "letter": "z",
+            "row": 0,
+            "col": 6
+        },
+        {
+            "letter": "a",
+            "row": 0,
+            "col": 7
+        },
+        {
+            "letter": "h",
+            "row": 1,
+            "col": 0
+        },
+        {
+            "letter": "a",
+            "row": 1,
+            "col": 1
+        },
+        {
+            "letter": "m",
+            "row": 1,
+            "col": 2
+        },
+        {
+            "letter": "o",
+            "row": 1,
+            "col": 3
+        },
+        {
+            "letter": "y",
+            "row": 1,
+            "col": 4
+        },
+        {
+            "letter": "d",
+            "row": 1,
+            "col": 5
+        },
+        {
+            "letter": "y",
+            "row": 1,
+            "col": 6
+        },
+        {
+            "letter": "o",
+            "row": 1,
+            "col": 7
+        },
+        {
+            "letter": "e",
+            "row": 2,
+            "col": 0
+        },
+        {
+            "letter": "l",
+            "row": 2,
+            "col": 1
+        },
+        {
+            "letter": "p",
+            "row": 2,
+            "col": 2
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 3
+        },
+        {
+            "letter": "m",
+            "row": 2,
+            "col": 4
+        },
+        {
+            "letter": "g",
+            "row": 2,
+            "col": 5
+        },
+        {
+            "letter": "a",
+            "row": 2,
+            "col": 6
+        },
+        {
+            "letter": "f",
+            "row": 2,
+            "col": 7
+        },
+        {
+            "letter": "e",
+            "row": 3,
+            "col": 0
+        },
+        {
+            "letter": "h",
+            "row": 3,
+            "col": 1
+        },
+        {
+            "letter": "e",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "letter": "m",
+            "row": 3,
+            "col": 3
+        },
+        {
+            "letter": "o",
+            "row": 3,
+            "col": 4
+        },
+        {
+            "letter": "o",
+            "row": 3,
+            "col": 5
+        },
+        {
+            "letter": "z",
+            "row": 3,
+            "col": 6
+        },
+        {
+            "letter": "c",
+            "row": 3,
+            "col": 7
+        },
+        {
+            "letter": "m",
+            "row": 4,
+            "col": 0
+        },
+        {
+            "letter": "a",
+            "row": 4,
+            "col": 1
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 2
+        },
+        {
+            "letter": "m",
+            "row": 4,
+            "col": 3
+        },
+        {
+            "letter": "v",
+            "row": 4,
+            "col": 4
+        },
+        {
+            "letter": "s",
+            "row": 4,
+            "col": 5
+        },
+        {
+            "letter": "o",
+            "row": 4,
+            "col": 6
+        },
+        {
+            "letter": "a",
+            "row": 4,
+            "col": 7
+        },
+        {
+            "letter": "k",
+            "row": 5,
+            "col": 0
+        },
+        {
+            "letter": "l",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "letter": "i",
+            "row": 5,
+            "col": 2
+        },
+        {
+            "letter": "a",
+            "row": 5,
+            "col": 3
+        },
+        {
+            "letter": "e",
+            "row": 5,
+            "col": 4
+        },
+        {
+            "letter": "t",
+            "row": 5,
+            "col": 5
+        },
+        {
+            "letter": "r",
+            "row": 5,
+            "col": 6
+        },
+        {
+            "letter": "j",
+            "row": 5,
+            "col": 7
+        },
+        {
+            "letter": "c",
+            "row": 6,
+            "col": 0
+        },
+        {
+            "letter": "l",
+            "row": 6,
+            "col": 1
+        },
+        {
+            "letter": "p",
+            "row": 6,
+            "col": 2
+        },
+        {
+            "letter": "t",
+            "row": 6,
+            "col": 3
+        },
+        {
+            "letter": "r",
+            "row": 6,
+            "col": 4
+        },
+        {
+            "letter": "e",
+            "row": 6,
+            "col": 5
+        },
+        {
+            "letter": "e",
+            "row": 6,
+            "col": 6
+        },
+        {
+            "letter": "a",
+            "row": 6,
+            "col": 7
+        },
+        {
+            "letter": "p",
+            "row": 7,
+            "col": 0
+        },
+        {
+            "letter": "a",
+            "row": 7,
+            "col": 1
+        },
+        {
+            "letter": "m",
+            "row": 7,
+            "col": 2
+        },
+        {
+            "letter": "e",
+            "row": 7,
+            "col": 3
+        },
+        {
+            "letter": "s",
+            "row": 7,
+            "col": 4
+        },
+        {
+            "letter": "r",
+            "row": 7,
+            "col": 5
+        },
+        {
+            "letter": "s",
+            "row": 7,
+            "col": 6
+        },
+        {
+            "letter": "n",
+            "row": 7,
+            "col": 7
+        }
+    ],
+    "words": [
+        "roommate",
+        "valhalla",
+        "azores",
+        "ipm",
+        "movers",
+        "wheem",
+        "cajan",
+        "goster"
+    ]
+}
