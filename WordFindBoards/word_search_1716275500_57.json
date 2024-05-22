@@ -1,0 +1,334 @@
+{
+    "grid": [
+        {
+            "letter": "e",
+            "row": 0,
+            "col": 0
+        },
+        {
+            "letter": "b",
+            "row": 0,
+            "col": 1
+        },
+        {
+            "letter": "l",
+            "row": 0,
+            "col": 2
+        },
+        {
+            "letter": "c",
+            "row": 0,
+            "col": 3
+        },
+        {
+            "letter": "j",
+            "row": 0,
+            "col": 4
+        },
+        {
+            "letter": "j",
+            "row": 0,
+            "col": 5
+        },
+        {
+            "letter": "t",
+            "row": 0,
+            "col": 6
+        },
+        {
+            "letter": "t",
+            "row": 0,
+            "col": 7
+        },
+        {
+            "letter": "m",
+            "row": 1,
+            "col": 0
+        },
+        {
+            "letter": "u",
+            "row": 1,
+            "col": 1
+        },
+        {
+            "letter": "h",
+            "row": 1,
+            "col": 2
+        },
+        {
+            "letter": "w",
+            "row": 1,
+            "col": 3
+        },
+        {
+            "letter": "v",
+            "row": 1,
+            "col": 4
+        },
+        {
+            "letter": "f",
+            "row": 1,
+            "col": 5
+        },
+        {
+            "letter": "i",
+            "row": 1,
+            "col": 6
+        },
+        {
+            "letter": "u",
+            "row": 1,
+            "col": 7
+        },
+        {
+            "letter": "j",
+            "row": 2,
+            "col": 0
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 1
+        },
+        {
+            "letter": "c",
+            "row": 2,
+            "col": 2
+        },
+        {
+            "letter": "c",
+            "row": 2,
+            "col": 3
+        },
+        {
+            "letter": "a",
+            "row": 2,
+            "col": 4
+        },
+        {
+            "letter": "f",
+            "row": 2,
+            "col": 5
+        },
+        {
+            "letter": "c",
+            "row": 2,
+            "col": 6
+        },
+        {
+            "letter": "r",
+            "row": 2,
+            "col": 7
+        },
+        {
+            "letter": "t",
+            "row": 3,
+            "col": 0
+        },
+        {
+            "letter": "a",
+            "row": 3,
+            "col": 1
+        },
+        {
+            "letter": "k",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "letter": "q",
+            "row": 3,
+            "col": 3
+        },
+        {
+            "letter": "w",
+            "row": 3,
+            "col": 4
+        },
+        {
+            "letter": "u",
+            "row": 3,
+            "col": 5
+        },
+        {
+            "letter": "m",
+            "row": 3,
+            "col": 6
+        },
+        {
+            "letter": "n",
+            "row": 3,
+            "col": 7
+        },
+        {
+            "letter": "e",
+            "row": 4,
+            "col": 0
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 1
+        },
+        {
+            "letter": "f",
+            "row": 4,
+            "col": 2
+        },
+        {
+            "letter": "t",
+            "row": 4,
+            "col": 3
+        },
+        {
+            "letter": "t",
+            "row": 4,
+            "col": 4
+        },
+        {
+            "letter": "i",
+            "row": 4,
+            "col": 5
+        },
+        {
+            "letter": "s",
+            "row": 4,
+            "col": 6
+        },
+        {
+            "letter": "d",
+            "row": 4,
+            "col": 7
+        },
+        {
+            "letter": "y",
+            "row": 5,
+            "col": 0
+        },
+        {
+            "letter": "h",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "letter": "b",
+            "row": 5,
+            "col": 2
+        },
+        {
+            "letter": "x",
+            "row": 5,
+            "col": 3
+        },
+        {
+            "letter": "b",
+            "row": 5,
+            "col": 4
+        },
+        {
+            "letter": "u",
+            "row": 5,
+            "col": 5
+        },
+        {
+            "letter": "i",
+            "row": 5,
+            "col": 6
+        },
+        {
+            "letter": "t",
+            "row": 5,
+            "col": 7
+        },
+        {
+            "letter": "a",
+            "row": 6,
+            "col": 0
+        },
+        {
+            "letter": "b",
+            "row": 6,
+            "col": 1
+        },
+        {
+            "letter": "m",
+            "row": 6,
+            "col": 2
+        },
+        {
+            "letter": "z",
+            "row": 6,
+            "col": 3
+        },
+        {
+            "letter": "c",
+            "row": 6,
+            "col": 4
+        },
+        {
+            "letter": "m",
+            "row": 6,
+            "col": 5
+        },
+        {
+            "letter": "j",
+            "row": 6,
+            "col": 6
+        },
+        {
+            "letter": "k",
+            "row": 6,
+            "col": 7
+        },
+        {
+            "letter": "p",
+            "row": 7,
+            "col": 0
+        },
+        {
+            "letter": "u",
+            "row": 7,
+            "col": 1
+        },
+        {
+            "letter": "i",
+            "row": 7,
+            "col": 2
+        },
+        {
+            "letter": "i",
+            "row": 7,
+            "col": 3
+        },
+        {
+            "letter": "j",
+            "row": 7,
+            "col": 4
+        },
+        {
+            "letter": "q",
+            "row": 7,
+            "col": 5
+        },
+        {
+            "letter": "i",
+            "row": 7,
+            "col": 6
+        },
+        {
+            "letter": "b",
+            "row": 7,
+            "col": 7
+        }
+    ],
+    "words": [
+        "druggets",
+        "deader",
+        "beefily",
+        "clansman",
+        "wimbling",
+        "encharge",
+        "bromvoel",
+        "buckras"
+    ]
+}
