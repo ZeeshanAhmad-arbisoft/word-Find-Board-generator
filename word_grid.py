@@ -2,6 +2,7 @@ from math import sqrt
 from alphabet import *
 import random
 import os
+import json
 
 HORIZONTAL = 0
 VERTICAL = 1
@@ -30,21 +31,21 @@ class WordGrid:
     # generates the word grid with words
     # if this method is not called before printing the grid, 
     # it will print just some random letters
-    def generate_with_words(self, words):
+    def generate_with_words(self, words, filename):
         # check if there are too many letters
         if self.can_generate(words):
-            # Ensure at least one diagonal word
-            if not self.place_mandatory_diagonal(words):
-                print("Error: Could not place the mandatory diagonal word. Exiting.")
-                return
+            diagonal_count = 0
+            placed_words = []
 
             for word in words:
                 finded_place_to_enter_word = False
                 attempt = 0  # attempts to place word (because there is a chance that it can't find, and then it would be on an infinite loop)
                 while not finded_place_to_enter_word and attempt <= 100:
-
-                    # chooses a random direction
-                    random_direction = random.choice([HORIZONTAL, VERTICAL, DIAGONAL_DOWN_RIGHT, DIAGONAL_DOWN_LEFT])
+                    # chooses a random direction, ensuring no more than 3 diagonal words
+                    if diagonal_count < 3:
+                        random_direction = random.choice([HORIZONTAL, VERTICAL, DIAGONAL_DOWN_RIGHT, DIAGONAL_DOWN_LEFT])
+                    else:
+                        random_direction = random.choice([HORIZONTAL, VERTICAL])
 
                     # random x and y positions of the first letter of the current word
                     random_x = random.randint(0, self.width - 1)
@@ -61,7 +62,10 @@ class WordGrid:
                     # checking if the word can be placed before placing it
                     if self.is_placeable(word, random_x, random_y, random_direction):
                         self.place_word(word, random_x, random_y, random_direction)
+                        if random_direction in [DIAGONAL_DOWN_RIGHT, DIAGONAL_DOWN_LEFT]:
+                            diagonal_count += 1
                         finded_place_to_enter_word = True
+                        placed_words.append(word)  # Add the word to placed_words if successfully placed
 
                     # one more attempt...
                     attempt += 1
@@ -70,17 +74,13 @@ class WordGrid:
             # this means it could not find a place to place word
             # (this situation is more common when the grid size is smaller)
             if attempt >= 100:
-                # asks user if he wants to print the puzzle without some of the words
-                i = input("Error: Could not place some words (out of space), print the puzzle anyway? [y/n] ")
-                # if the user wants, print the grid
-                if i.casefold() == 'y':
-                    self.print()
-                # otherwise, exit the program
-                else:
-                    exit()
-            # but if it could normally find a place to enter the word, print the grid without errors
-            else:
-                self.print()
+                raise ValueError("Error: Could not place some words (out of space).")
+
+            # Save the placed words to a JSON file
+            self.save_words_to_json(placed_words, filename)
+
+            # if it could normally find a place to enter the word, print the grid without errors
+            self.print()
 
     # sets a word in a position and with a particular direction
     def place_word(self, word, x, y, direction):
@@ -183,6 +183,11 @@ class WordGrid:
                         words.remove(word)  # Remove the word from the list once placed
                         return True
         return False  # Return False if no diagonal word could be placed
+
+    # Save placed words to a JSON file
+    def save_words_to_json(self, words, filename):
+        with open(filename, 'w') as f:
+            json.dump(words, f)
 
     # prints the grid on the terminal
     def print(self):

@@ -1,0 +1,334 @@
+{
+    "grid": [
+        {
+            "letter": "j",
+            "row": 0,
+            "col": 0
+        },
+        {
+            "letter": "q",
+            "row": 0,
+            "col": 1
+        },
+        {
+            "letter": "d",
+            "row": 0,
+            "col": 2
+        },
+        {
+            "letter": "b",
+            "row": 0,
+            "col": 3
+        },
+        {
+            "letter": "s",
+            "row": 0,
+            "col": 4
+        },
+        {
+            "letter": "m",
+            "row": 0,
+            "col": 5
+        },
+        {
+            "letter": "z",
+            "row": 0,
+            "col": 6
+        },
+        {
+            "letter": "b",
+            "row": 0,
+            "col": 7
+        },
+        {
+            "letter": "w",
+            "row": 1,
+            "col": 0
+        },
+        {
+            "letter": "q",
+            "row": 1,
+            "col": 1
+        },
+        {
+            "letter": "a",
+            "row": 1,
+            "col": 2
+        },
+        {
+            "letter": "r",
+            "row": 1,
+            "col": 3
+        },
+        {
+            "letter": "i",
+            "row": 1,
+            "col": 4
+        },
+        {
+            "letter": "i",
+            "row": 1,
+            "col": 5
+        },
+        {
+            "letter": "m",
+            "row": 1,
+            "col": 6
+        },
+        {
+            "letter": "u",
+            "row": 1,
+            "col": 7
+        },
+        {
+            "letter": "r",
+            "row": 2,
+            "col": 0
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 1
+        },
+        {
+            "letter": "p",
+            "row": 2,
+            "col": 2
+        },
+        {
+            "letter": "a",
+            "row": 2,
+            "col": 3
+        },
+        {
+            "letter": "r",
+            "row": 2,
+            "col": 4
+        },
+        {
+            "letter": "s",
+            "row": 2,
+            "col": 5
+        },
+        {
+            "letter": "o",
+            "row": 2,
+            "col": 6
+        },
+        {
+            "letter": "c",
+            "row": 2,
+            "col": 7
+        },
+        {
+            "letter": "y",
+            "row": 3,
+            "col": 0
+        },
+        {
+            "letter": "u",
+            "row": 3,
+            "col": 1
+        },
+        {
+            "letter": "e",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "letter": "c",
+            "row": 3,
+            "col": 3
+        },
+        {
+            "letter": "y",
+            "row": 3,
+            "col": 4
+        },
+        {
+            "letter": "d",
+            "row": 3,
+            "col": 5
+        },
+        {
+            "letter": "s",
+            "row": 3,
+            "col": 6
+        },
+        {
+            "letter": "u",
+            "row": 3,
+            "col": 7
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 0
+        },
+        {
+            "letter": "t",
+            "row": 4,
+            "col": 1
+        },
+        {
+            "letter": "d",
+            "row": 4,
+            "col": 2
+        },
+        {
+            "letter": "i",
+            "row": 4,
+            "col": 3
+        },
+        {
+            "letter": "a",
+            "row": 4,
+            "col": 4
+        },
+        {
+            "letter": "o",
+            "row": 4,
+            "col": 5
+        },
+        {
+            "letter": "c",
+            "row": 4,
+            "col": 6
+        },
+        {
+            "letter": "m",
+            "row": 4,
+            "col": 7
+        },
+        {
+            "letter": "e",
+            "row": 5,
+            "col": 0
+        },
+        {
+            "letter": "s",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "letter": "i",
+            "row": 5,
+            "col": 2
+        },
+        {
+            "letter": "n",
+            "row": 5,
+            "col": 3
+        },
+        {
+            "letter": "n",
+            "row": 5,
+            "col": 4
+        },
+        {
+            "letter": "u",
+            "row": 5,
+            "col": 5
+        },
+        {
+            "letter": "h",
+            "row": 5,
+            "col": 6
+        },
+        {
+            "letter": "b",
+            "row": 5,
+            "col": 7
+        },
+        {
+            "letter": "s",
+            "row": 6,
+            "col": 0
+        },
+        {
+            "letter": "e",
+            "row": 6,
+            "col": 1
+        },
+        {
+            "letter": "u",
+            "row": 6,
+            "col": 2
+        },
+        {
+            "letter": "g",
+            "row": 6,
+            "col": 3
+        },
+        {
+            "letter": "s",
+            "row": 6,
+            "col": 4
+        },
+        {
+            "letter": "b",
+            "row": 6,
+            "col": 5
+        },
+        {
+            "letter": "u",
+            "row": 6,
+            "col": 6
+        },
+        {
+            "letter": "l",
+            "row": 6,
+            "col": 7
+        },
+        {
+            "letter": "s",
+            "row": 7,
+            "col": 0
+        },
+        {
+            "letter": "a",
+            "row": 7,
+            "col": 1
+        },
+        {
+            "letter": "m",
+            "row": 7,
+            "col": 2
+        },
+        {
+            "letter": "s",
+            "row": 7,
+            "col": 3
+        },
+        {
+            "letter": "z",
+            "row": 7,
+            "col": 4
+        },
+        {
+            "letter": "t",
+            "row": 7,
+            "col": 5
+        },
+        {
+            "letter": "s",
+            "row": 7,
+            "col": 6
+        },
+        {
+            "letter": "e",
+            "row": 7,
+            "col": 7
+        }
+    ],
+    "words": [
+        "misdoubt",
+        "outsea",
+        "siryan",
+        "bracings",
+        "cumble",
+        "wryness",
+        "moschus",
+        "dapedium"
+    ]
+}
