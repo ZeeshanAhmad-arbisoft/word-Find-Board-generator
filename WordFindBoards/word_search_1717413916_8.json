@@ -1,0 +1,334 @@
+{
+    "grid": [
+        {
+            "letter": "h",
+            "row": 0,
+            "col": 0
+        },
+        {
+            "letter": "k",
+            "row": 0,
+            "col": 1
+        },
+        {
+            "letter": "s",
+            "row": 0,
+            "col": 2
+        },
+        {
+            "letter": "v",
+            "row": 0,
+            "col": 3
+        },
+        {
+            "letter": "f",
+            "row": 0,
+            "col": 4
+        },
+        {
+            "letter": "t",
+            "row": 0,
+            "col": 5
+        },
+        {
+            "letter": "z",
+            "row": 0,
+            "col": 6
+        },
+        {
+            "letter": "n",
+            "row": 0,
+            "col": 7
+        },
+        {
+            "letter": "i",
+            "row": 1,
+            "col": 0
+        },
+        {
+            "letter": "i",
+            "row": 1,
+            "col": 1
+        },
+        {
+            "letter": "x",
+            "row": 1,
+            "col": 2
+        },
+        {
+            "letter": "s",
+            "row": 1,
+            "col": 3
+        },
+        {
+            "letter": "n",
+            "row": 1,
+            "col": 4
+        },
+        {
+            "letter": "a",
+            "row": 1,
+            "col": 5
+        },
+        {
+            "letter": "k",
+            "row": 1,
+            "col": 6
+        },
+        {
+            "letter": "e",
+            "row": 1,
+            "col": 7
+        },
+        {
+            "letter": "v",
+            "row": 2,
+            "col": 0
+        },
+        {
+            "letter": "d",
+            "row": 2,
+            "col": 1
+        },
+        {
+            "letter": "s",
+            "row": 2,
+            "col": 2
+        },
+        {
+            "letter": "u",
+            "row": 2,
+            "col": 3
+        },
+        {
+            "letter": "r",
+            "row": 2,
+            "col": 4
+        },
+        {
+            "letter": "e",
+            "row": 2,
+            "col": 5
+        },
+        {
+            "letter": "t",
+            "row": 2,
+            "col": 6
+        },
+        {
+            "letter": "y",
+            "row": 2,
+            "col": 7
+        },
+        {
+            "letter": "g",
+            "row": 3,
+            "col": 0
+        },
+        {
+            "letter": "t",
+            "row": 3,
+            "col": 1
+        },
+        {
+            "letter": "i",
+            "row": 3,
+            "col": 2
+        },
+        {
+            "letter": "t",
+            "row": 3,
+            "col": 3
+        },
+        {
+            "letter": "y",
+            "row": 3,
+            "col": 4
+        },
+        {
+            "letter": "k",
+            "row": 3,
+            "col": 5
+        },
+        {
+            "letter": "a",
+            "row": 3,
+            "col": 6
+        },
+        {
+            "letter": "n",
+            "row": 3,
+            "col": 7
+        },
+        {
+            "letter": "n",
+            "row": 4,
+            "col": 0
+        },
+        {
+            "letter": "f",
+            "row": 4,
+            "col": 1
+        },
+        {
+            "letter": "p",
+            "row": 4,
+            "col": 2
+        },
+        {
+            "letter": "s",
+            "row": 4,
+            "col": 3
+        },
+        {
+            "letter": "h",
+            "row": 4,
+            "col": 4
+        },
+        {
+            "letter": "e",
+            "row": 4,
+            "col": 5
+        },
+        {
+            "letter": "k",
+            "row": 4,
+            "col": 6
+        },
+        {
+            "letter": "h",
+            "row": 4,
+            "col": 7
+        },
+        {
+            "letter": "y",
+            "row": 5,
+            "col": 0
+        },
+        {
+            "letter": "m",
+            "row": 5,
+            "col": 1
+        },
+        {
+            "letter": "o",
+            "row": 5,
+            "col": 2
+        },
+        {
+            "letter": "r",
+            "row": 5,
+            "col": 3
+        },
+        {
+            "letter": "a",
+            "row": 5,
+            "col": 4
+        },
+        {
+            "letter": "l",
+            "row": 5,
+            "col": 5
+        },
+        {
+            "letter": "e",
+            "row": 5,
+            "col": 6
+        },
+        {
+            "letter": "a",
+            "row": 5,
+            "col": 7
+        },
+        {
+            "letter": "p",
+            "row": 6,
+            "col": 0
+        },
+        {
+            "letter": "e",
+            "row": 6,
+            "col": 1
+        },
+        {
+            "letter": "r",
+            "row": 6,
+            "col": 2
+        },
+        {
+            "letter": "i",
+            "row": 6,
+            "col": 3
+        },
+        {
+            "letter": "o",
+            "row": 6,
+            "col": 4
+        },
+        {
+            "letter": "d",
+            "row": 6,
+            "col": 5
+        },
+        {
+            "letter": "i",
+            "row": 6,
+            "col": 6
+        },
+        {
+            "letter": "c",
+            "row": 6,
+            "col": 7
+        },
+        {
+            "letter": "d",
+            "row": 7,
+            "col": 0
+        },
+        {
+            "letter": "h",
+            "row": 7,
+            "col": 1
+        },
+        {
+            "letter": "f",
+            "row": 7,
+            "col": 2
+        },
+        {
+            "letter": "b",
+            "row": 7,
+            "col": 3
+        },
+        {
+            "letter": "e",
+            "row": 7,
+            "col": 4
+        },
+        {
+            "letter": "b",
+            "row": 7,
+            "col": 5
+        },
+        {
+            "letter": "o",
+            "row": 7,
+            "col": 6
+        },
+        {
+            "letter": "p",
+            "row": 7,
+            "col": 7
+        }
+    ],
+    "words": [
+        "periodic",
+        "bebop",
+        "morale",
+        "hiv",
+        "snake",
+        "surety",
+        "ity",
+        "kan"
+    ]
+}

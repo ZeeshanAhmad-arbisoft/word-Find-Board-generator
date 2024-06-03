@@ -10,7 +10,7 @@ def save_to_json(data, folder, filename):
     with open(filepath, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
-def main(cheated=False, words_file=None, size=8, num_boards=250):
+def main(cheated=False, words_file=None, size=8, num_boards=50):
     # Create a folder to save JSON files
     folder_name = "WordFindBoards"
     os.makedirs(folder_name, exist_ok=True)
@@ -67,9 +67,9 @@ if __name__ == "__main__":
 
     # Adding optional arguments
     parser.add_argument("-c", "--cheated", action="store_true", help="Highlight words")
-    parser.add_argument("-f", "--file", type=str, default="words.txt", help="Path to a custom words file. One word per line.")
+    parser.add_argument("-f", "--file", type=str, default="newwords.txt", help="Path to a custom words file. One word per line.")
     parser.add_argument("-s", "--size", type=int, default=8, help="Sets a custom grid size (Default: 8)")
-    parser.add_argument("-n", "--num_boards", type=int, default=250, help="Number of word search boards to generate (Default: 250)")
+    parser.add_argument("-n", "--num_boards", type=int, default=50, help="Number of word search boards to generate (Default: 250)")
 
     # Read arguments from command line
     args = parser.parse_args()
