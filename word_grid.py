@@ -198,3 +198,32 @@ class WordGrid:
                 print(self.grid[x + y * self.width], end=" ")
             print("\033[96m│\033[0m")
         print("\033[96m└" + ("─" * (2 * (self.width) + 1)) + "┘\033[0m")
+
+    # Function to validate the words on the board
+    def validate_words(self, words):
+        board_words = set()
+        directions = [(0, 1), (1, 0), (1, 1), (-1, 1)]  # HORIZONTAL, VERTICAL, DIAGONAL_DOWN_RIGHT, DIAGONAL_DOWN_LEFT
+
+        for y in range(self.width):
+            for x in range(self.width):
+                for direction in directions:
+                    word = self.get_word(x, y, direction)
+                    if word:
+                        board_words.add(word)
+
+        # Add missing board words to the solution list
+        for word in board_words:
+            if word not in words:
+                words.append(word)
+
+        return words
+
+    # Helper function to extract a word from the board
+    def get_word(self, x, y, direction):
+        word = ""
+        dx, dy = direction
+        while 0 <= x < self.width and 0 <= y < self.width:
+            word += self.grid[x + y * self.width].replace("\033[32m", "").replace("\033[0m", "")
+            x += dx
+            y += dy
+        return word if len(word) > 1 else None

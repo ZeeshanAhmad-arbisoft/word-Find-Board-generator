@@ -77,11 +77,11 @@ if __name__ == "__main__":
 
     # Adding optional arguments
     parser.add_argument("-c", "--cheated", action="store_true", help="Highlight words")
-    parser.add_argument("-f", "--file", type=str, default="words.txt", help="Path to a custom words file. One word per line.")
+    parser.add_argument("-f", "--file", type=str, default="newwords.txt", help="Path to a custom words file. One word per line.")
     parser.add_argument("-s", "--size", type=int, default=8, help="Sets a custom grid size (Default: 8)")
     parser.add_argument("-n", "--num_boards", type=int, default=50, help="Number of word search boards to generate (Default: 100)")
 
     # Read arguments from command line
-    args = parser.parse_args()
+    args = parser.parse_args()      
 
     main(cheated=args.cheated, words_file=args.file, size=args.size, num_boards=args.num_boards)

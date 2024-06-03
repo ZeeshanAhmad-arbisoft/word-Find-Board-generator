@@ -11,7 +11,7 @@ def filter_words(input_file, output_file):
         print(f"Error: Unable to read file '{input_file}'.")
         return
 
-    eight_letter_words = [word for word in words if len(word) <= 8]
+    eight_letter_words = [word for word in words if len(word) >= 3]
 
     try:
         with open(output_file, 'w') as file:
